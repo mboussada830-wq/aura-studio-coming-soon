@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aura Studio - Creative Branding & Digital Experiences. Website coming soon.">
+  <title>Aura Studio | Coming Soon</title>
+  
+<!-- SVG version (optional, modern browsers) -->
+<link rel="icon" type="image/svg+xml" href="images/logo-icon.svg">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* Reset & Base */
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family:'Urbanist', sans-serif; background:#ffffff; color:#000; display:flex; justify-content:center; align-items:center; height:100vh; transition:0.3s; }
+    .dark { background:#0302FE; color:#fff; }
+
+    /* Container */
+    .coming-soon { text-align:center; padding:20px; max-width:600px; margin:auto; }
+    .logo { width:80px; margin-bottom:20px; }
+    h1 { font-size:2.5rem; font-weight:700; margin-bottom:15px; }
+    p { font-size:1.1rem; color:#666; margin-bottom:30px; line-height:1.5; }
+    .dark p { color:#ccc; }
+
+  
+
+    /* Footer */
+    footer { margin-top:40px; font-size:0.9rem; color:#999; }
+    .dark footer { color:#ccc; }
+
+  
+  </style>
+</head>
+<body>
+  <div class="coming-soon">
+    <!-- Aura Studio Logo (SVG Inline) -->
+    <img src="images/logo-icon.svg" alt="Aura Studio Logo" class="logo">
+
+    <h1>We're Launching Soon</h1>
+    <p>Aura Studio is crafting creative branding & digital experiences. Stay tuned for something amazing!</p>
+
+    
+
+    <footer>&copy; 2026 Aura Studio — Creative Direction & Design</footer>
+  </div>
+
+ 
+
+  <!-- Minimal JS for form (EmailJS or AJAX can be added) -->
+  <script>
+    document.getElementById('subscribe-form').addEventListener('submit', function(e){
+      e.preventDefault();
+      alert('Thanks! You will be notified.');
+      this.reset();
+    });
+  </script>
+</body>
+</html>
